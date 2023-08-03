@@ -1,0 +1,180 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container {
+    display: inline-flex;
+    padding: 85px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 44px 104px 0px rgba(19, 43, 80, 0.10);
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.main>p {
+    color: #132B50;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.profile>figure {
+    width: 78px;
+    height: 78px;
+    border-radius: 78px;
+    background:lightgray -35px -72px / 189.744% 284.615% no-repeat;
+}
+
+.profile>.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.text>p:first-child {
+    color: #132B50;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text>p:last-child {
+    color: #132B50;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.password {
+    display: flex;
+    width: 414px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.password>p {
+    color: #132B50;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.input {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 8px;
+    border: 1px solid #132B50;
+    width: 414px;
+}
+
+.input figure:first-child {
+    width: 27px;
+    height: 27px;
+}
+
+.input p {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    color: #132B50;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.input figure:last-child {
+    width: 27px;
+    height: 27px;
+}
+
+.group {
+
+    display: flex;
+    flex-direction: row;
+    width: 414px;
+    align-items: center;
+    gap: 16px;
+}
+
+.group .text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+.text>figure {
+    width: 60px;
+    height: 36px;
+}
+
+.text>p {
+    color: #132B50;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.group button {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: #132B50;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container .text {
+
+    color: #132B50;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+}
